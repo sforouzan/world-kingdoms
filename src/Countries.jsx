@@ -19,7 +19,7 @@ export const Countries = () => {
 
   return (
     <div className="container">
-      <h1>World kingdoms</h1>
+      <h1>World Kingdoms</h1>
       <div className="countries">
         <select onChange={(e) => handleSelect(e.target.value)}>
           <option value="">Select a country</option>

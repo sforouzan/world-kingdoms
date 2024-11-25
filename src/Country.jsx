@@ -15,21 +15,16 @@ export const Country = ({ country }) => {
           src={country.flags.svg}
           alt={country.name.official}
         />
-        <span>{country.name.common}</span>
+        <span className="boldCountry">{country.name.official}</span>
       </div>
       <div className="fields">
         <p className="field">
-          <span>Official name:</span>
-          <span>{country.name.official}</span>
-        </p>
-
-        <p className="field">
-          <span>Capital:</span>
+          <span className="boldField">Capital: </span>
           <span>{country.capital}</span>
         </p>
 
         <p className="field">
-          <span>Located in:</span>
+          <span className="boldField">Located in: </span>
           <span>{country.subregion}</span>
         </p>
 
